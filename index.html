@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservas Aéreas no Mundo</title>
+    <script src="https://d3js.org/d3.v7.min.js" defer></script>
+    <script src="https://d3js.org/topojson.v3.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+      }
+      .map {
+        margin-left: 5%;
+        flex: 1 1 50%;
+        min-width: 300px;
+      }
+      .bar-plots {
+        flex: 1 1 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        min-width: 200px;
+      }
+      .bar-plot {
+        width: 100%;
+        margin-top: 20px;
+      }
+      .title {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="map"></div>
+      <div class="bar-plots">
+        <div class="bar-plot" id="bar-plot-1"></div>
+        <div class="bar-plot" id="bar-plot-2"></div>
+        <div class="bar-plot" id="bar-plot-3"></div>
+      </div>
+    </div>
+  </body>
+</html>
