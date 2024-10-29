@@ -1,8 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ctFK2cod)
+
 
 
 ### README.md para o Projeto de Visualização com D3.js
-
+### Link da visualização: <https://fgv-vis-2024.github.io/tarefa-4-dados-de-reservas-aereas-no-mundo/>
 ### Visão Geral do Projeto
 
 Este projeto utiliza D3.js para visualizar a distribuição de reservas aéreas globais por país, oferecendo uma análise detalhada da distribuição geográfica das reservas. O mapa interativo permite aos usuários explorar dados em diferentes escalas através de zoom e obter informações específicas ao passar o mouse sobre os países.
